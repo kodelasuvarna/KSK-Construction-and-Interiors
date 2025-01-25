@@ -1412,6 +1412,7 @@ Footer Section style
 .main_footer i {
     padding: 0px 5px;
     color: #4379cf;
+    font-size: 1.6rem;
 }
 .main_footer p a {
     padding: 5px;
@@ -1894,4 +1895,21 @@ Blog Details Page
 
 .logo{
     width: 50%;
+}
+.service-carousel .owl-dots{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1rem;
+}
+.service-carousel .owl-dots .owl-dot{
+width: 15px;
+height: 15px;
+border: 1px solid #4379CF;
+border-radius: 50%;
+margin: 5px;
+}
+.service-carousel .owl-dots .owl-dot.active{
+    background-color: #4379CF; 
 }

@@ -115,7 +115,7 @@
                             <ul class="dropdown-menu">
                                 <li><a href="infrastructure-services.html">Infrastructure</a></li>
                                 <li><a href="interior-services.html">Interiors</a></li>
-                                <li><a href="construction-services.html">Construction</a></li>
+                                <li><a href="collaborative-services.html">Collaborative Services</a></li>
                             </ul>
                         </li>
                         <li><a href="projects.html">Projects</a></li>
@@ -133,50 +133,130 @@
         <!--Home Sections-->
 
         <section id="hello" class="home bg-mega">
-            <!-- <div class="overlay"></div> -->
-            <!-- Carousel Start -->
             <div class="owl-carousel home-carousel wow fadeInRight" data-wow-delay="0.3s">
                 <div class="carousel-item text-center p-4">
+                    <div class="carousel-text">
+                        <h3 class="animated-text">
+                            <span>Best</span>
+                            <span>Interiors</span>
+                        </h3>
+                        
+                    </div>
                     <img src="assets/images/banner/carousel-1.jpg" alt="Best interiors">
                 </div>
                 <div class="carousel-item text-center p-4">
+                    <div class="carousel-text">
+                        <h3>Innovative Designs</h3>
+                    </div>
                     <img src="assets/images/banner/carousel-2.png" alt="Best interiors">
                 </div>
                 <div class="carousel-item text-center p-4">
+                    <div class="carousel-text">
+                       
+                        <h3>Transforming Spaces</h3>
+                    </div>
                     <img src="assets/images/banner/carousel-3.png" alt="Best interiors" class="img-fluid">
                 </div>
                 <div class="carousel-item text-center p-4">
+                    <div class="carousel-text">
+                        <h3>Creative Infrastructure</h3>
+                    </div>
                     <img src="assets/images/banner/carousel-4.png" alt="Best interiors" class="img-fluid">
                 </div>
                 <div class="carousel-item text-center p-4">
+                    <div class="carousel-text">
+                        <h3>Modern Infrastructure</h3>
+                    </div>
                     <img src="assets/images/banner/carousel-5.png" alt="Best interiors" class="img-fluid">
                 </div>
             </div>
-            <!-- Carousel End -->
-            <!-- <div class="container">
-                <div class="row">
-                    <div class="main_home text-center">
-                        <div class="home_text">
-                                <h4 class="text-white text-uppercase">a new creative studio</h4>
-                                <h1 class="text-white text-uppercase">good design is always in season</h1>
+        </section>
+         <!--End off Home Sections-->
 
-                                <div class="separator"></div>
+<style>
+    /* Carousel Text Style */
+.carousel-item {
+    position: relative;
+}
 
-                                <h5 class=" text-uppercase text-white"><em>One day, the dream will come true with lorem ipsum dolor sit amet, 
-                                        consectetuer adipiscing elit, nummy nibh euismod tincidunt laoreet.</em></h5>
-                            </div>
-                    </div>
-                </div>End off row
-            </div>End off container -->
-        </section> <!--End off Home Sections-->
+.carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 
+    text-align: center;
+ 
+    transition: opacity 0.3s ease;
+    /* padding: 10px 20px; */
+    border-radius: 5px;
+}
+.carousel-text h3 {
+    font-size: 6rem;
+    color: #4379cf; /* This won't apply if text-fill-color is transparent */
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Adds a shadow to text */
+    -webkit-text-stroke: 5px #f3f85d; /* Corrected text stroke */
+    -webkit-text-fill-color: transparent; /* Transparent fill for hollow effect */
+    opacity: 1; /* Initially hidden */
+    transition: opacity 0.5s, transform 0.5s; /* Smooth fade/slide effect */
+}
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Slide in from below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* End at normal position */
+    }
+}
+/* Keyframes for individual word animation */
+@keyframes fadeInWord {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Slide in from below */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Normal position */
+    }
+}
 
+/* Styling for the animated text */
+.animated-text span {
+    display: inline-block; /* Allows animation per word */
+    opacity: 0; /* Initially hidden */
+    animation: fadeInWord 0.5s ease forwards;
+}
+
+/* Delay each word's animation */
+.animated-text span:nth-child(1) {
+    animation-delay: 0.2s;
+}
+.animated-text span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+</style>
+<script>
+    
+</script>
         <!--About Sections-->
         <section id="feature" class="feature p-top-100">
             <div class="container">
                 <div class="row">
                     <div class="main_feature">
-
+<div class="brand-name">
+    <h3>
+        <span>A</span>
+        <span>A</span>
+        <span>BUILT</span></h3>
+</div>
                         <div class="col-md-6 m-top-120">
                             <!-- Head Title -->
                             <div class="head_title">
@@ -257,7 +337,37 @@
     </div>
     </div>
 </div> -->
-
+<style>
+    .main_feature{
+        position: relative;
+    }
+    .main_feature .brand-name{
+      
+    }
+    .main_feature .brand-name h3{
+        position:relative;
+        font-size: 18rem;
+        color: rgba(0, 0, 0, 0.5) !important;
+    }
+    .main_feature .brand-name h3 span:first-child{
+        position: absolute;
+        left: 0;
+        color: rgba(0, 0, 0, 0.5) !important;
+        opacity: 0.1;
+    }
+    .main_feature .brand-name h3 span:nth-child(2){
+        position: absolute;
+        right: 65%;
+        color: rgba(0, 0, 0, 0.5) !important;
+        opacity: 0.1;
+    }
+    .main_feature .brand-name h3 span:last-child{
+        position: absolute;
+        right: 0;
+        color: rgba(0, 0, 0, 0.5) !important;
+        opacity: 0.1;
+    }
+</style>
 
             <div class="container">
                 <div class="row">
@@ -659,6 +769,7 @@
                               
                             </div>
                         </div>
+                        <div class="col-md-12 below-section">
                         <div class="col-md-6">
                             
                             <ul class="service-list">
@@ -676,7 +787,7 @@
                             <img src="assets/images/banner/carousel-1.jpg" alt="A A Built Infra" class="img-fluid">
                         </div>
                     </div>
-            
+            </div>
                     <!-- A A Built Interiors -->
                     <div class="row">
                         <div class="col-md-12">
@@ -684,6 +795,9 @@
                                 <h2>A A Built Interiors</h2>
                             </div>
                         </div>
+                        <div class="col-md-12 below-section">
+
+                       
                         <div class="col-md-6">
                             
                             <ul class="service-list">
@@ -699,7 +813,7 @@
                             <img src="assets/images/banner/carousel-4.png" alt="A A Built Interiors" class="img-fluid">
                         </div>
                     </div>
-            
+                </div>
                     <!-- A A Built Collaborative Services -->
                     <div class="row">
                         <div class="col-md-12">
@@ -707,6 +821,7 @@
                                 <h2>A A Built Collaborative Services</h2>
                             </div>
                         </div>
+                        <div class="col-md-12 below-section">
                         <div class="col-md-6">
                             
                             <ul class="service-list">
@@ -727,6 +842,7 @@
                             <img src="assets/images/banner/carousel-4.png" alt="A A Built Collaborative Services" class="img-fluid">
                             <img src="assets/images/banner/carousel-3.png" alt="A A Built Collaborative Services" class="img-fluid">
                         </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -736,7 +852,11 @@
                     color: #4379cf;
                     margin-right: 10px;
                 }
-            
+            .services-section .row .below-section{
+                display: flex !important;
+                align-items: center !important;
+               flex-direction: row;
+            }
                 .services-section {
                     padding: 20px;
                 }
@@ -753,6 +873,7 @@ margin-top: 3rem;
             }
             .service-carousel img{
                 height: 300px;
+                border: 5px solid #4379cf;
             }
                 .category {
                     margin-bottom: 40px;
@@ -820,7 +941,7 @@ margin-top: 3rem;
                         <div class="col-md-12 m-bottom-60">
                             <div class="filters-button-group text-right sm-text-center">
                                 <button class="button is-checked" data-filter="*">View all</button>
-                                <button class="button" data-filter=".metal">Architecture</button>
+                                <button class="button" data-filter=".metal">Infrastructure</button>
                                 <button class="button" data-filter=".transition">Interiors</button>
                                 <button class="button" data-filter=".alkali">Theme Interiors</button>
                                 <button class="button" data-filter=".ar">Conceptual Design</button>
@@ -1077,8 +1198,9 @@ margin-top: 3rem;
                     <div class="main_models text-center">
                         <div class="col-md-12">
                             <div class="head_title text-left sm-text-center wow fadeInDown">
-                                <h2>Our Models</h2>
-                                <h5><em>The success of Pouseidon is passion and love. Meet them now!</em></h5>
+                                <h2>Our Projects</h2>
+<h5><em>Explore our diverse range of projects that showcase our expertise in both infrastructure and interior design. From innovative building solutions to stunning interiors, our work reflects quality, creativity, and commitment to excellence.</em></h5>
+
                                 <div class="separator_left"></div>
                             </div>
                         </div>
@@ -1235,6 +1357,12 @@ margin-top: 3rem;
 
         <section id="company" class="company bg-light">
             <div class="container">
+                <div class="brand-name">
+                    <h3>
+                        <span>A</span>
+                        <span>A</span>
+                        <span>BUILT</span></h3>
+                </div>
                 <div class="row">
                     <div class="main_company roomy-100 text-center">
                         <h3 class="text-uppercase">A A Built</h3>
@@ -1282,7 +1410,95 @@ margin-top: 3rem;
 
 
     </div>
-
+    <style>
+        .main_feature{
+            position: relative;
+        }
+        .main_feature .brand-name{
+          
+        }
+        .main_feature .brand-name h3{
+            position:relative;
+            font-size: 18rem;
+            color: rgba(0, 0, 0, 0.5) !important;
+        }
+        .main_feature .brand-name h3 span:first-child{
+            position: absolute;
+            left: 0;
+            color: rgba(0, 0, 0, 0.5) !important;
+            opacity: 0.1;
+        }
+        .main_feature .brand-name h3 span:nth-child(2){
+            position: absolute;
+            right: 65%;
+            color: rgba(0, 0, 0, 0.5) !important;
+            opacity: 0.1;
+        }
+        .main_feature .brand-name h3 span:last-child{
+            position: absolute;
+            right: 0;
+            color: rgba(0, 0, 0, 0.5) !important;
+            opacity: 0.1;
+        }
+        .company{
+            position: relative;
+        }
+        .company .brand-name{
+          
+        }
+        .company .brand-name h3{
+            position:relative;
+            font-size: 18rem;
+            color: rgba(0, 0, 0, 0.5) !important;
+        }
+        .company .brand-name h3 span:first-child{
+            position: absolute;
+            left: 0;
+            color: rgba(0, 0, 0, 0.5) !important;
+            opacity: 0.1;
+        }
+        .company .brand-name h3 span:nth-child(2){
+            position: absolute;
+            right: 65%;
+            color: rgba(0, 0, 0, 0.5) !important;
+            opacity: 0.1;
+        }
+        .company .brand-name h3 span:last-child{
+            position: absolute;
+            right: 0;
+            color: rgba(0, 0, 0, 0.5) !important;
+            opacity: 0.1;
+        }
+        @media(max-width:992px){
+            .company .brand-name h3{
+             font-size: 4rem;
+        }
+        .company .brand-name h3 span:first-child{
+            left: 30%;
+        }
+        .company .brand-name h3 span:nth-child(2){
+            right: 55%;
+        }
+        .company .brand-name h3 span:last-child{
+            right: 30%;
+        }
+            .main_feature .brand-name h3{
+             font-size: 4rem;
+        }
+        .main_feature .brand-name h3 span:first-child{
+            top: -100px;
+            left: 30%;
+        }
+        .main_feature .brand-name h3 span:nth-child(2){
+            right: 55%;
+            top: -100px;
+        }
+        .main_feature .brand-name h3 span:last-child{
+            right: 30%;
+            top: -100px;
+        }
+        }
+    </style>
     <!-- JS includes -->
 
     <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
