@@ -928,6 +928,11 @@ Nav Menu style
     background: url(../images/banner/carousel-3.png) no-repeat bottom center;
     background-size: cover;
 }
+.service-banner.collaborative
+{
+    background: url(../images/banner/carousel-3.png) no-repeat bottom center;
+    background-size: cover;
+}
 .model-banner{
     background: url(../images/background/model-bg.jpg) no-repeat bottom center;
 }
@@ -1289,6 +1294,7 @@ Testimonial Section style
 
 .test_authour img{
     margin: 0px auto;
+    width: 100px !important;
 }
 
 
@@ -1408,7 +1414,16 @@ Footer Section style
 .main_footer{
     overflow: hidden;
 }
+.carousel-item img {
+    width: 100%;
+    height: 100vh;
+}
 
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+    display: none;
+
+}
 .main_footer i {
     padding: 0px 5px;
     color: #4379cf;
@@ -1911,5 +1926,22 @@ border-radius: 50%;
 margin: 5px;
 }
 .service-carousel .owl-dots .owl-dot.active{
+    background-color: #4379CF; 
+}
+.testimonial-carousel .owl-dots{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 1rem;
+}
+.testimonial-carousel .owl-dots .owl-dot{
+width: 15px;
+height: 15px;
+border: 1px solid #4379CF;
+border-radius: 50%;
+margin: 5px;
+}
+.testimonial-carousel .owl-dots .owl-dot.active{
     background-color: #4379CF; 
 }
