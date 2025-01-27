@@ -933,6 +933,14 @@ Nav Menu style
     background: url(../images/banner/carousel-3.png) no-repeat bottom center;
     background-size: cover;
 }
+.service-banner.about{
+    background: url(../images/banner/carousel-3.png) no-repeat bottom center;
+    background-size: cover;
+}
+.service-banner.projects{
+    background: url(../images/banner/carousel-3.png) no-repeat bottom center;
+    background-size: cover;
+}
 .model-banner{
     background: url(../images/background/model-bg.jpg) no-repeat bottom center;
 }
