@@ -989,7 +989,14 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         padding: 3px 0 !important;
     }
 }
-
+@media (max-width: 1024px) {
+    /* nav.navbar.bootsnav.navbar-fixed.no-background .logo-scrolled{
+        display: none !important;
+    }
+    .navbar-brand > img.logo-scrolled{
+        display: none;
+    } */
+}
 @media (max-width: 992px) {
     /* Navbar Responsive
     =================================*/ 
@@ -998,7 +1005,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         float: none !important;
         margin: 0 !important;
     }
-    
+   
     nav.navbar.bootsnav .navbar-header {
         float: none;
         display: block;
