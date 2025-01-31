@@ -1404,6 +1404,8 @@ Contact Section style
 
 .main_contact{
     overflow: hidden;
+    max-width: 500px;
+    margin: 0px auto;
 }
 .main_contact a.btn{
     /*width:100%;*/
@@ -1429,9 +1431,9 @@ Contact Section style
 }
 
 
-/.footer {
-    background: #f8f9fa;
-    color: #000;
+.footer {
+    background: #4379cf;
+    color: #fff;
     padding: 40px 0;
 }
 
@@ -1441,6 +1443,7 @@ Contact Section style
 }
 
 .footer h4 {
+    color: #f8f463;
     font-size: 18px;
     margin-bottom: 15px;
 }
@@ -1455,7 +1458,7 @@ Contact Section style
 }
 
 .footer ul li a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -1470,7 +1473,7 @@ Contact Section style
 
 .footer .list-inline li a {
     font-size: 1.5rem;
-    color: #4379cf;
+    color: #f8f463;
 }
 
 .footer .text-center {
@@ -1478,7 +1481,9 @@ Contact Section style
     margin-top: 20px;
     padding-top: 10px;
 }
-
+.copy a{
+    color: #f8f463;
+}
 
 
 
