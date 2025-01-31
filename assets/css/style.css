@@ -951,7 +951,7 @@ Nav Menu style
     background: url(../images/background/model-bg.jpg) no-repeat bottom center;
 }
 .contact-banner{
-    background: url(../images/background/contact-bg.jpg) no-repeat bottom center;
+    background: url(/assets/images/banner/2.jpg) no-repeat bottom center;
 }
 .about-banner{
     background: url(../images/background/services-bg.jpg) no-repeat bottom center;
@@ -1463,7 +1463,7 @@ Contact Section style
 }
 
 .footer ul li a:hover {
-    color: #4379cf;
+    color: #f8f463;
 }
 
 .footer .list-inline li {
