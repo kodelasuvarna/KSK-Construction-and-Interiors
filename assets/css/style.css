@@ -1340,8 +1340,8 @@ Brand Section style
     opacity: 1;
 }
 .cbrand_item img.img_apple{
-    width:25%;
-    padding: 10px;
+    /* width:25%;
+    padding: 10px; */
 }
 
 
