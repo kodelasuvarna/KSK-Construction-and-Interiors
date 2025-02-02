@@ -775,14 +775,14 @@ textarea::-ms-input-placeholder{
 
 /*Preloader css*/
 #loading{
-    background-color: #faf562;
+    background:  linear-gradient(90deg, #f3f85d,#4379cf);
     height: 100%;
     width: 100%;
     position: fixed;
     z-index: 1;
     margin-top: 0px;
     top: 0px;
-    z-index: 90;
+    z-index: 999;
 }
 #loading-center{
     width: 100%;
