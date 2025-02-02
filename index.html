@@ -236,6 +236,18 @@
       <!--End off Home Sections-->
 
       <style>
+        .owl-carousel.home-carousel .carousel-item::before{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+content: "";
+        }
+        .owl-carousel.home-carousel .carousel-item .carousel-text{
+          z-index: 2;
+        }
         /* Carousel Text Style */
         .carousel-item {
           position: relative;
@@ -336,7 +348,7 @@ object-fit: cover;
                 <!-- End off Head Title -->
 
                 <div class="feature_content wow fadeIn m-top-40">
-                  <p>
+                  <p class="">
                     AA Built is a premier architectural and design firm
                     dedicated to transforming spaces into remarkable works of
                     art. Our experienced team brings clients' visions to life,
@@ -416,7 +428,7 @@ object-fit: cover;
 </div> -->
         <style>
           .back{
-            background: linear-gradient(90deg, #f3f85d,#4379CF) !important;
+            background: linear-gradient(90deg, #f3f85d 40%,#4379CF ) !important;
           }
           .main_feature {
             /* position: relative; */
@@ -869,8 +881,15 @@ object-fit: cover;
         </div>
       </div>
       <style>
+
         .why{
-          background: linear-gradient(90deg, #f3f85d,#4379CF) !important;
+          background: linear-gradient(90deg, #f3f85d99,#4379CF) !important;
+        }
+        .why .main-color{
+          color: white;
+        }
+        .why p{
+          color: white;
         }
       </style>
         <div class="container">
