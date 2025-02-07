@@ -29,7 +29,7 @@ Author URI: http://xpeedstudio.com
 html,
 body {
     background-color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     color: #797979;
     width: 100%;
     padding: 0;
@@ -242,7 +242,7 @@ h4 {
     line-height: 2.2rem;
 }
 h5 {
-    font-size: 18px;
+    font-size: 1.2rem;
     font-family: 'Crimson Text', serif;
     font-weight: 400;
 }
@@ -927,16 +927,16 @@ Nav Menu style
     background-size: cover;
 }
 .service-banner.interiors{
-    background: url(../images/banner/carousel-3.png) no-repeat bottom center;
+    background: url(../images/banner/interior-banner.png) no-repeat bottom center;
     background-size: cover;
 }
 .service-banner.construction{
-    background: url(../images/banner/carousel-3.png) no-repeat bottom center;
+    background: url(../images/blog/8.jpg) no-repeat bottom center;
     background-size: cover;
 }
 .service-banner.collaborative
 {
-    background: url(../images/banner/carousel-3.png) no-repeat bottom center;
+    background: url(../images/banner/collabarative-banner.png) no-repeat bottom center;
     background-size: cover;
 }
 .service-banner.about{
@@ -1019,7 +1019,7 @@ About section style
     position: absolute;
     left:5%;
     top:5%;
-    border:10px solid #c9c9c9;
+    border:10px solid #f6f664;
 
 }
 .photo_border2{
@@ -1230,7 +1230,7 @@ service section style
     position: relative;
     width: 70px;
     height: 70px;
-    background-color: #faf562;
+    background-color: #f6f664;
     margin:0;
     line-height: 70px;
     font-size:2rem;
@@ -1252,14 +1252,20 @@ service section style
 .service_right_text h4,
 .service_left_text h4{
     font-weight: 400;
-    font-size:16px;
+    font-size:1.2rem;
+    
+
+   
 }
 
 .service_right_text p,
 .service_left_text p{
     font-family: 'Roboto Condensed', sans-serif;
-    font-size:14px;
+    font-size:18px;
     font-weight: 400;
+}
+.text-yellow{
+    color: #f6f664 !important;;
 }
 
 
@@ -1362,14 +1368,17 @@ Models Section style
     width:100%;
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
+    border-radius: 5px;
 }
 .model_img:hover img{
     width:100%;
     -webkit-filter: grayscale(0%); 
     filter: grayscale(0%);
+    border-radius: 5px;
 }
 .model_caption{
-    background-color: #333;
+    /* background-color: #333; */
+    background: linear-gradient(90deg, #f3f85d, #4379cfbe);
     width:100%;
     position: absolute;
     left:0;
@@ -1968,12 +1977,12 @@ Blog Details Page
 .service-carousel .owl-dots .owl-dot{
 width: 15px;
 height: 15px;
-border: 1px solid #4379CF;
+border: 1px solid white;
 border-radius: 50%;
 margin: 5px;
 }
 .service-carousel .owl-dots .owl-dot.active{
-    background-color: #4379CF; 
+    background-color: #f6f664; 
 }
 .testimonial-carousel .owl-dots{
     text-align: center;
@@ -1992,3 +2001,16 @@ margin: 5px;
 .testimonial-carousel .owl-dots .owl-dot.active{
     background-color: #4379CF; 
 }
+.gallery-carousel.owl-carousel img {
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+    border-radius: 10px;
+   
+  }
+  
+
+  .work {
+    margin: 0 auto !important;
+
+  }

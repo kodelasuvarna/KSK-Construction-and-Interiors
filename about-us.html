@@ -1,623 +1,597 @@
-<!doctype html>
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>About Us Page</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="assets/images/faviconn.png">
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <title>About Us Page</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="assets/images/faviconn.png" />
 
-        <!--Google Fonts link-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <!--Google Fonts link-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
 
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i"
+      rel="stylesheet"
+    />
 
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/fonticons.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/bootsnav.css" />
 
-        <link rel="stylesheet" href="assets/css/slick.css">
-        <link rel="stylesheet" href="assets/css/slick-theme.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <link rel="stylesheet" href="assets/css/fonticons.css">
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/bootstrap.css">
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <!--For Plugins external css-->
+    <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
 
+    <!--Theme custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
 
-        <!--For Plugins external css-->
-        <!--<link rel="stylesheet" href="assets/css/plugins.css" />-->
-
-        <!--Theme custom css -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!--<link rel="stylesheet" href="assets/css/colors/maron.css">-->
-
-          <!--Theme Responsive css-->
+    <!--Theme Responsive css-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
-    <link rel="stylesheet" href="assets/lib/owlcarousel/assets/owl.carousel.css" />
-    <link rel="stylesheet" href="assets/lib/owlcarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="assets/lib/owlcarousel/assets/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/lib/owlcarousel/assets/owl.carousel.min.css"
+    />
 
-        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-    <body data-spy="scroll" data-target=".navbar-collapse">
-
-
-        <!-- Preloader -->
-        <div id="loading">
-            <div id="loading-center">
-                <div id="loading-center-absolute">
-                    <div class="object" id="object_one"></div>
-                    <div class="object" id="object_two"></div>
-                    <div class="object" id="object_three"></div>
-                    <div class="object" id="object_four"></div>
-                </div>
-            </div>
-        </div><!--End off Preloader -->
-
-
-        <div class="culmn">
-            <!--Home page style-->
-
-
-            <nav class="navbar navbar-default navbar-fixed white no-background bootsnav text-uppercase">
-                <!-- Start Top Search -->
-                <div class="top-search">
-                    <div class="container">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                            <input type="text" class="form-control" placeholder="Search">
-                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Top Search -->
-    
-                <div class="container">
-    
-    
-                    <!-- Start Header Navigation -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <a class="navbar-brand" href="index.html">
-    
-                            <img src="assets/images/logos.png" class="logo logo-display" alt="">
-                            <img src="assets/images/logos.png" class="logo logo-scrolled" alt="">
-    
-                        </a>
-                    </div>
-                    <!-- End Header Navigation -->
-    
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                            <li><a href="index.html" class="active">home</a></li>
-                            <li><a href="about-us.html">about</a></li>
-                            
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="infrastructure-services.html">Infrastructure</a></li>
-                                    <li><a href="interior-services.html">Interiors</a></li>
-                                    <li><a href="collaborative-services.html">Collaborative Services</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="blog.html">Blogs</a></li>
-                            <li><a href="contact-us.html">contact</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div>
-    
-    
-            </nav>
-
-
-            <!--Home Sections-->
-
-            <section id="hello" class="service-banner about bg-mega">
-                <div class="overlay"></div>
-                <div class="container">
-                    <div class="row">
-                        <div class="main_home text-center">
-                            <div class="about_text">
-                                <h1 class="text-white text-uppercase">About Us</h1>
-                                <ol class="breadcrumb">
-                                    <li><a href="#">Home</a></li>
-                                    <li class="active"><a href="#">About Us</a></li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div><!--End off row-->
-                </div><!--End off container -->
-            </section> <!--End off Home Sections-->
-
-
-            <!--About Sections-->
-            <section id="feature" class="ab_feature roomy-100">
-                <div class="container m-bottom-120">
-                    <div class="row">
-                        <div class="main_feature ">
-                            <div class="col-md-6">
-                                <div class="feature_photo wow fadeIn sm-m-top-40">
-                                    <div class="photo_border2"></div>
-                                    <div class="feature_img">
-                                        <img src="assets/images/about/founder.jpg" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 m-top-120">
-                                <!-- Head Title -->
-                                <div class="head_title">
-                                    <h2>Founder And CEO​​</h2>
-    
-                                    <div class="separator_left"></div>
-                                </div><!-- End off Head Title -->
-    
-                                <div class="feature_content wow fadeIn m-top-20">
-                                    <p>K. Veenanath, a Master of Design and Construction Management, founded Anagha Agaja
-                                        Built Construction Company with a vision to revolutionize the Indian construction
-                                        industry. His expertise has driven the company's growth and secured prestigious
-                                        projects across the country. Anagha Agaja Built Construction Company has gained
-                                        recognition for its exceptional craftsmanship and innovative construction.
-                                        Implementing innovative techniques and delivering exceptional results for every
-                                        project.​</p>
-    
-                                    <p>In addition to our expertise in construction, Anagha Agaja Built Construction Company
-                                        also specializes in interior design. Our team of skilled interior designers creates
-                                        stunning spaces that combine functionality and aesthetics, tailored to meet the
-                                        unique needs and preferences of our clients. With a keen eye for detail and a
-                                        commitment to delivering excellence, we transform spaces into beautiful and
-                                        functional environments that leave a lasting impression.​​</p>
-    
-                                    <div class="feature_btns m-top-30">
-                                        <a href="" class="btn btn-default text-uppercase">more about us <i
-                                                class="fa fa-long-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-    
-                        </div>
-                    </div><!--End off row-->
-                </div><!--End off container -->
-
-                <div class="container about-company">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="head_title">
-                                <h2>About our company​​</h2>
-    
-                                <div class="separator_left"></div>
-                            </div>
-                        </div>
-                        <div class="main_work">
-    
-                            <div class="col-md-7  col-sm-12 col-xs-12">
-                                <div class="work_item">
-                                    <div class="row">
-                                        <div class="col-md-7 col-sm-12 col-xs-12 ">
-                                            <div class="work_item_img">
-                                                <img src="assets/images/about/team.jpg" alt="" class="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5 col-sm-12 col-xs-12 text-left pull-left sm-text-center">
-                                            <div class="work_item_details m-top-80 sm-m-top-20">
-                                                <h4>Experienced team​</h4>
-                                                <div class="work_separator2"></div>
-                                                <p class="m-top-40 sm-m-top-10">Anagha Agaja Built Construction Company has
-                                                    a team of experienced professionals with a proven track record of
-                                                    delivering high-quality construction projects.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- End off work-item -->
-    
-                            <div class="col-md-7 col-md-offset-5 col-sm-12 col-xs-12">
-                                <div class="work_item">
-                                    <div class="row">
-                                        <div class="col-md-7 col-sm-12 col-xs-12 text-right pull-right sm-text-center">
-                                            <div class="work_item_img sm-text-center sm-m-top-40">
-                                                <img src="assets/images/about/commitment.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5 col-sm-12 col-xs-12 text-right pull-left sm-text-center">
-                                            <div class="work_item_details m-top-80 sm-m-top-20">
-                                                <h4>Commitment to quality​</h4>
-                                                <div class="work_separator1"></div>
-                                                <p class="m-top-40 sm-m-top-10">We are committed to delivering exceptional
-                                                    quality in all our projects, using the highest standards of workmanship
-                                                    and materials.​</p>
-                                            </div>
-                                        </div>
-                                    </div>
-    
-                                </div>
-                            </div><!-- End off work-item -->
-    
-                            <div class="col-md-7  col-sm-12 col-xs-12">
-                                <div class="work_item">
-                                    <div class="row">
-                                        <div class="col-md-7 col-sm-12 col-xs-12 ">
-                                            <div class="work_item_img sm-m-top-40">
-                                                <img src="assets/images/about/customer.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5 col-sm-12 col-xs-12 text-left pull-left sm-text-center">
-                                            <div class="work_item_details m-top-80 sm-m-top-20">
-                                                <h4>Customer satisfaction​</h4>
-                                                <div class="work_separator2"></div>
-                                                <p class="m-top-40 sm-m-top-10">We are dedicated to exceeding client
-                                                    expectations and building lasting relationships based on trust and
-                                                    transparency.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- End off work-item -->
-    
-                            <div class="col-md-7 col-sm-12 col-md-offset-5 col-xs-12">
-                                <div class="work_item">
-                                    <div class="row">
-                                        <div class="col-md-7 col-sm-12 col-xs-12 text-right pull-right sm-text-center">
-                                            <div class="work_item_img sm-text-center sm-m-top-40">
-                                                <img src="assets/images/about/practices.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5 col-sm-12 col-xs-12 text-right pull-left sm-text-center">
-                                            <div class="work_item_details m-top-80 sm-m-top-20">
-                                                <h4>Sustainable practices​</h4>
-                                                <div class="work_separator1"></div>
-                                                <p class="m-top-40 sm-m-top-10">Anagha Agaja Built Construction Company
-                                                    embraces sustainable practices to minimise our environmental impact.​
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-    
-                                </div>
-                            </div><!-- End off work-item -->
-    
-                        </div>
-                    </div>
-                </div>
-
-
-            </section>
-
-            <style>
-                .about-company .head_title {
-                    margin-bottom: 5rem;
-                }
-            </style>
-            <!--Simple Section-->
-            <section id="simple" class="simple bg-grey roomy-80">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_simple text-center">
-                            <div class="col-md-12">
-                                <h2>Simplicity isn’t simple</h2>
-                                <p>Eusus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere 
-                                    me lius quod ii legunt saepius. Duis autem vel eum iriure dolor in hendrerit vulputate velit esse
-                                    molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan blandit
-                                    praesent luptatum.</p>
-
-                                <a href="" class="btn btn-default m-top-40">Contact Us <i class="fa fa-long-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <!--Models section-->
-            <section id="teams" class="teams roomy-80">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_teams">
-                            <div class="col-md-12">
-                                <div class="head_title text-left sm-text-center wow fadeInDown">
-                                    <h2>Meet our team</h2>
-                                    <h5><em>Meet our expert team specializing in infrastructure and interior excellence!</em></h5>
-                                    <div class="separator_left"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 col-sm-6">
-                                <div class="team_item m-top-30">
-                                    <div class="team_img">
-                                        <img src="assets/images/model-img1.jpg" alt="" />
-                                        <div class="team_caption">
-                                            <h4 class="">Redikiel</h4>
-                                            <h5><em>Founder at Pousiedon</em></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- End off col-md-3 -->
-
-                            <div class="col-md-4 col-sm-6">
-                                <div class="team_item m-top-30">
-                                    <div class="team_img">
-                                        <img src="assets/images/model-img2.jpg" alt="" />
-                                        <div class="team_caption">
-                                            <h4 class="">Christina Angela</h4>
-                                            <h5><em>Graphic Director</em></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- End off col-md-3 -->
-
-                            <div class="col-md-4 col-sm-6">
-                                <div class="team_item m-top-30">
-                                    <div class="team_img">
-                                        <img src="assets/images/model-img3.jpg" alt="" />
-                                        <div class="team_caption">
-                                            <h4 class="">Kevin Andrew</h4>
-                                            <h5><em>Photographer</em></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- End off col-md-3 -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-           <!--Testimonial Section-->
-           <section id="testimonial" class="testimonial fix roomy-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="head_title">
-                            <h2>Testimonials</h2>
-
-                            <div class="separator_left"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 text-center">
-
-                   
-                        <div class="testimonial-carousel owl-carousel" role="listbox">
-                            <div class="item ">
-                                <div class="col-sm-10 col-sm-offset-1">
-
-                                    <div class="test_authour">
-                                        <img class="img-circle" src="assets/images/test-img.jpg" alt="" />
-                                        <h6 class="m-top-20">John Doe</h6>
-                                        <h5><em>Excellent Service and Quality</em></h5>
-                                    </div>
-                                    <p class="m-top-40">
-                                        Working with A A Built has been a wonderful experience. Their professionalism and attention to detail are unmatched. The entire team is highly skilled, and they exceeded my expectations with their outstanding work. Highly recommend their services to anyone looking for quality and reliability!
-                                    </p>
-
-
-                                </div>
-                            </div>
-                            <div class="item ">
-                                <div class="col-sm-10 col-sm-offset-1">
-
-                                    <div class="test_authour">
-                                        <img class="img-circle" src="assets/images/test-img.jpg" alt="" />
-                                        <h6 class="m-top-20">Jane Smith</h6>
-                                        <h5><em>Creative and Professional</em></h5>
-                                    </div>
-                                    <p class="m-top-40">
-                                        A A Built has an incredible team of creative minds. They transformed my vision into reality with their exceptional designs and execution. Their collaborative approach and timely delivery made the entire process seamless and enjoyable. I couldn’t be happier with the results!
-                                    </p>
-
-
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-sm-10 col-sm-offset-1">
-
-                                    <div class="test_authour">
-                                        <img class="img-circle" src="assets/images/test-img.jpg" alt="" />
-                                        <h6 class="m-top-20">David Lee</h6>
-                                        <h5><em>Highly Recommended</em></h5>
-                                    </div>
-                                    <p class="m-top-40">
-                                        I am thoroughly impressed by A A Built’s expertise and commitment to excellence. They delivered top-notch results within the agreed timeframe and budget. Their dedication to customer satisfaction is truly commendable. I highly recommend them for any project!
-                                    </p>
-
-                                </div>
-                            </div>
-
-                     
-
-                       
-
-                    </div>
-                </div>
-                </div><!--End off row-->
-            </div><!--End off container -->
-        
-            <br />
-            <br />
-            <br />
-            <hr />
-            <br />
-            <br />
-            <br />
-        
-           <!-- End off container -->
-        </section>
-         <!--End off Testimonial section -->
-
-         <div class="container p-bottom-100 p-top-100">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="head_title">
-                        <h2>Our Brand Partners​</h2>
-
-                        <div class="separator_left"></div>
-                    </div>
-                </div>
-                <div class="main_cbrand text-center brand-carousel owl-carousel">
-                   
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=""><img src="assets/images/brand-partners/1.png" alt="" /></a>
-                        </div>
-                   
-                    
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=""><img src="assets/images/brand-partners/2.png" alt="" /></a>
-                        </div>
-                    
-                    
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=""><img class="" src="assets/images/brand-partners/3.png" alt="" /></a>
-                        </div>
-                 
-                   
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=""><img src="assets/images/brand-partners/4.png" alt="" /></a>
-                        </div>
-                  
-                   
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=""><img src="assets/images/brand-partners/5.png" alt="" /></a>
-                        </div>
-                  
-                   
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=""><img src="assets/images/brand-partners/6.png" alt="" /></a>
-                        </div>
-                  
-                    
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=""><img src="assets/images/brand-partners/7.png" alt="" /></a>
-                        </div>
-                 
-                    
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=""><img src="assets/images/brand-partners/8.png" alt="" /></a>
-                        </div>
-                  
-                    
-                        <div class="cbrand_item m-bottom-10">
-                            <a href=""><img src="assets/images/brand-partners/9.png" alt="" /></a>
-                        </div>
-                    
-                </div>
-            </div><!-- End off row -->
+  <body data-spy="scroll" data-target=".navbar-collapse">
+    <!-- Preloader -->
+    <div id="loading">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          <div class="object" id="object_one"></div>
+          <div class="object" id="object_two"></div>
+          <div class="object" id="object_three"></div>
+          <div class="object" id="object_four"></div>
         </div>
+      </div>
+    </div>
+    <!--End off Preloader -->
 
+    <div class="culmn">
+      <!--Home page style-->
 
+      <nav
+        class="navbar navbar-default navbar-fixed white no-background bootsnav text-uppercase"
+      >
+        <!-- Start Top Search -->
+        <div class="top-search">
+          <div class="container">
+            <div class="input-group">
+              <span class="input-group-addon"
+                ><i class="fa fa-search"></i
+              ></span>
+              <input type="text" class="form-control" placeholder="Search" />
+              <span class="input-group-addon close-search"
+                ><i class="fa fa-times"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+        <!-- End Top Search -->
 
-
-              <!--whatsapp-->
-  <div class="whatsapp">
-    <a href="https://wa.me/+918919042043">
-      <i class="fab fa-whatsapp"></i>
-    </a>
-  </div>
-  <!--whatsapp-->
-        <!--Company section-->
-
-            <section id="company" class="company bg-light">
-                <div class="container">
-                    <div class="row">
-                        <div class="main_company roomy-100 text-center">
-                            <h3 class="text-uppercase">A A Built</h3>
-                            <p>2-33/45, 3rd Floor, 1st Cross - Hyderabad- Telangana</p>
-                            <p>+91 93921 99996  -  aabuilt@gmail.com</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <!-- scroll up-->
-            <div class="scrollup">
-                <a href="#"><i class="fa fa-chevron-up"></i></a>
-            </div><!-- End off scroll up -->
-
-
-             <footer id="footer" class="footer bg-mega">
         <div class="container">
-            <div class="row">
-                <div class="main_footer p-top-40 p-bottom-30">
-                    <!-- Logo & Address -->
-                    <div class="col-md-3 text-left">
-                        <img src="assets/images/logos.png" alt="Company Logo" class="footer-logo" />
-                        <p>2-33/45, 3rd Floor, 1st Cross - Hyderabad- Telangana</p>
-                        <p>Phone: +91 98765 43210</p>
-                        <p>Email: info@yourcompany.com</p>
-                    </div>
-    
-                    <!-- Quick Links -->
-                    <div class="col-md-3 text-left">
-                        <h4>Quick Links</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-    
-                    <!-- Available Links -->
-                    <div class="col-md-3 text-left">
-                        <h4>Available Links</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">FAQ</a></li>
-                        </ul>
-                    </div>
-    
-                    <!-- Social Media -->
-                    <div class="col-md-3 text-left">
-                        <h4>Follow Us</h4>
-                        <ul class="list-inline">
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- Copyright -->
-            <div class="row text-center p-top-20 p-bottom-20 copy">
-                <div class="col-md-12">
-                    <p>
-                        Designed by <a target="_blank" href="https://www.thepatternscompany.com">The Patterns Company</a> © 2025. All Rights Reserved.
-                    </p>
-                </div>
-            </div>
+          <!-- Start Header Navigation -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#navbar-menu"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="assets/images/logos.png"
+                class="logo logo-display"
+                alt=""
+              />
+              <img
+                src="assets/images/logos.png"
+                class="logo logo-scrolled"
+                alt=""
+              />
+            </a>
+          </div>
+          <!-- End Header Navigation -->
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul
+              class="nav navbar-nav navbar-right"
+              data-in="fadeInDown"
+              data-out="fadeOutUp"
+            >
+              <li><a href="index.html" class="active">home</a></li>
+              <li><a href="about-us.html">about</a></li>
+
+              <li class="dropdown">
+                <a
+                  href="#"
+                  class="dropdown-toggle"
+                  data-toggle="dropdown"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="infrastructure-services.html">Infrastructure</a>
+                  </li>
+                  <li><a href="interior-services.html">Interiors</a></li>
+                  <li>
+                    <a href="collaborative-services.html"
+                      >Collaborative Services</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="blog.html">Blogs</a></li>
+              <li><a href="contact-us.html">contact</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
         </div>
-    </footer>
+      </nav>
 
+      <!--Home Sections-->
 
-
-
+      <section id="hello" class="service-banner about bg-mega">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row">
+            <div class="main_home text-center">
+              <div class="about_text">
+                <h1 class="text-white text-uppercase">About Us</h1>
+                <ol class="breadcrumb">
+                  <li><a href="#">Home</a></li>
+                  <li class="active"><a href="#">About Us</a></li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <!--End off row-->
         </div>
+        <!--End off container -->
+      </section>
+      <!--End off Home Sections-->
 
-        <!-- JS includes -->
+      <!--About Sections-->
+      <section id="feature" class="ab_feature roomy-100">
+        <div class="container m-bottom-100">
+          <div class="row">
+            <div class="main_feature">
+              <div class="col-md-6">
+                <div class="feature_photo wow fadeIn sm-m-top-40">
+                  <div class="photo_border2"></div>
+                  <div class="feature_img">
+                    <img src="assets/images/about/founder.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 m-top-120">
+                <!-- Head Title -->
+                <div class="head_title">
+                  <h2>Founder And CEO​​</h2>
 
-        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
+                  <div class="separator_left"></div>
+                </div>
+                <!-- End off Head Title -->
 
-        <script src="assets/js/isotope.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.js"></script>
-        <script src="assets/js/jquery.easing.1.3.js"></script>
-        <script src="assets/js/slick.min.js"></script>
-        <script src="assets/js/jquery.collapse.js"></script>
-        <script src="assets/js/bootsnav.js"></script>
+                <div class="feature_content wow fadeIn m-top-20">
+                  <p>
+                    K. Veenanath, a Master of Design and Construction
+                    Management, founded Anagha Agaja Built Construction Company
+                    with a vision to revolutionize the Indian construction
+                    industry. His expertise has driven the company's growth and
+                    secured prestigious projects across the country. Anagha
+                    Agaja Built Construction Company has gained recognition for
+                    its exceptional craftsmanship and innovative construction.
+                    Implementing innovative techniques and delivering
+                    exceptional results for every project.​
+                  </p>
 
+                  <p>
+                    In addition to our expertise in construction, Anagha Agaja
+                    Built Construction Company also specializes in interior
+                    design. Our team of skilled interior designers creates
+                    stunning spaces that combine functionality and aesthetics,
+                    tailored to meet the unique needs and preferences of our
+                    clients. With a keen eye for detail and a commitment to
+                    delivering excellence, we transform spaces into beautiful
+                    and functional environments that leave a lasting
+                    impression.​​
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End off row-->
+        </div>
+        <!--End off container -->
+      </section>
+      <div class="container-xl about-company m-0 p-top-40 w-100">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="head_title">
+                <h2>About our company​​</h2>
 
-        <!-- paradise slider js -->
+                <div class="separator_left"></div>
+              </div>
+            </div>
+            <div class="main_work">
+              <div class="col-md-7 col-sm-12 col-xs-12">
+                <div class="work_item">
+                  <div class="row">
+                    <div class="col-md-7 col-sm-12 col-xs-12">
+                      <div class="work_item_img">
+                        <img
+                          src="assets/images/about/team.jpg"
+                          alt=""
+                          class=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-5 col-sm-12 col-xs-12 text-left pull-left sm-text-center"
+                    >
+                      <div class="work_item_details m-top-80 sm-m-top-20">
+                        <h4 class="text-yellow">Experienced team​</h4>
+                        <div class="work_separator2"></div>
+                        <p class="m-top-40 text-white">
+                          Anagha Agaja Built Construction Company has a team of
+                          experienced professionals with a proven track record
+                          of delivering high-quality construction projects.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End off work-item -->
 
-        <!--
+              <div class="col-md-7 col-md-offset-5 col-sm-12 col-xs-12">
+                <div class="work_item">
+                  <div class="row">
+                    <div
+                      class="col-md-7 col-sm-12 col-xs-12 text-right pull-right sm-text-center"
+                    >
+                      <div class="work_item_img sm-m-top-40">
+                        <img src="assets/images/about/commitment.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-5 col-sm-12 col-xs-12 text-right pull-left sm-text-center"
+                    >
+                      <div class="work_item_details m-top-80 sm-m-top-20">
+                        <h4 class="text-yellow">Commitment to quality​</h4>
+                        <div class="work_separator1"></div>
+                        <p class="m-top-40 text-white">
+                          We are committed to delivering exceptional quality in
+                          all our projects, using the highest standards of
+                          workmanship and materials.​
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End off work-item -->
+
+              <div class="col-md-7 col-sm-12 col-xs-12">
+                <div class="work_item">
+                  <div class="row">
+                    <div class="col-md-7 col-sm-12 col-xs-12">
+                      <div class="work_item_img sm-m-top-40">
+                        <img src="assets/images/about/customer.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-5 col-sm-12 col-xs-12 text-left pull-left sm-text-center"
+                    >
+                      <div class="work_item_details m-top-80 sm-m-top-20">
+                        <h4 class="text-yellow">Customer satisfaction​</h4>
+                        <div class="work_separator2"></div>
+                        <p class="m-top-40 text-white">
+                          We are dedicated to exceeding client expectations and
+                          building lasting relationships based on trust and
+                          transparency.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End off work-item -->
+
+              <div class="col-md-7 col-sm-12 col-md-offset-5 col-xs-12">
+                <div class="work_item">
+                  <div class="row">
+                    <div
+                      class="col-md-7 col-sm-12 col-xs-12 text-right pull-right sm-text-center"
+                    >
+                      <div class="work_item_img sm-text-center sm-m-top-40">
+                        <img src="assets/images/about/practices.jpg" alt="" />
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-5 col-sm-12 col-xs-12 text-right pull-left sm-text-center"
+                    >
+                      <div class="work_item_details m-top-80 sm-m-top-20">
+                        <h4 class="text-yellow">Sustainable practices​</h4>
+                        <div class="work_separator1"></div>
+                        <p class="m-top-40 text-white">
+                          Anagha Agaja Built Construction Company embraces
+                          sustainable practices to minimise our environmental
+                          impact.​
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End off work-item -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        .about-company {
+          background: linear-gradient(90deg, #f3f85d, #4379cf) !important;
+        }
+
+        .about-company .head_title {
+          margin-bottom: 5rem;
+        }
+
+        .about-company img {
+          mix-blend-mode: darken;
+        }
+      </style>
+
+      <style>
+        .about-company .head_title {
+          margin-bottom: 5rem;
+        }
+      </style>
+
+      <!--Models section-->
+      <section id="teams" class="teams roomy-80">
+        <div class="container">
+          <div class="row">
+            <div class="main_teams">
+              <div class="col-md-12">
+                <div class="head_title text-left sm-text-center wow fadeInDown">
+                  <h2>Meet our team</h2>
+                  <h5>
+                    <em
+                      >Meet our expert team specializing in infrastructure and
+                      interior excellence!</em
+                    >
+                  </h5>
+                  <div class="separator_left"></div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-6">
+                <div class="team_item m-top-30">
+                  <div class="team_img">
+                    <img src="assets/images/model-img1.jpg" alt="" />
+                    <div class="team_caption">
+                      <h4 class="">Redikiel</h4>
+                      <h5><em>Founder at Pousiedon</em></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End off col-md-3 -->
+
+              <div class="col-md-4 col-sm-6">
+                <div class="team_item m-top-30">
+                  <div class="team_img">
+                    <img src="assets/images/model-img2.jpg" alt="" />
+                    <div class="team_caption">
+                      <h4 class="">Christina Angela</h4>
+                      <h5><em>Graphic Director</em></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End off col-md-3 -->
+
+              <div class="col-md-4 col-sm-6">
+                <div class="team_item m-top-30">
+                  <div class="team_img">
+                    <img src="assets/images/model-img3.jpg" alt="" />
+                    <div class="team_caption">
+                      <h4 class="">Kevin Andrew</h4>
+                      <h5><em>Photographer</em></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End off col-md-3 -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Simple Section start-->
+      <section id="simple" class="simple about-company roomy-80">
+        <div class="container">
+          <div class="row">
+            <div class="main_simple text-center">
+              <div class="col-md-12">
+                <h2>High-Quality Services for Your infrastructure and
+                  Interior Design Needs</h2>
+                <p>
+                  
+A A Builts delivers top-notch infrastructure and interior design solutions, blending functionality with aesthetics. Our expert team ensures innovative designs tailored to your space, enhancing both style and efficiency. From concept to execution, we provide seamless project management for a hassle-free experience. Transform your vision into reality with A A Builts' high-quality craftsmanship and precision.
+                </p>
+
+                <a href="contact-us.html" class="btn btn-default m-top-40"
+                  >Contact Us <i class="fa fa-long-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      
+
+      <!--whatsapp-->
+      <div class="whatsapp">
+        <a href="https://wa.me/+918919042043">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+      <!--whatsapp-->
+      <!--Company section-->
+
+      <section id="company" class="company bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="main_company roomy-100 text-center">
+              <h3 class="text-uppercase">A A Built</h3>
+              <p>2-33/45, 3rd Floor, 1st Cross - Hyderabad- Telangana</p>
+              <p>+91 93921 99996 - aabuilt@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- scroll up-->
+      <div class="scrollup">
+        <a href="#"><i class="fa fa-chevron-up"></i></a>
+      </div>
+      <!-- End off scroll up -->
+
+      <footer id="footer" class="footer bg-mega">
+        <div class="container">
+          <div class="row">
+            <div class="main_footer p-top-40 p-bottom-30">
+              <!-- Logo & Address -->
+              <div class="col-md-3 text-left">
+                <img
+                  src="assets/images/logos.png"
+                  alt="Company Logo"
+                  class="footer-logo"
+                />
+                <p>2-33/45, 3rd Floor, 1st Cross - Hyderabad- Telangana</p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Email: info@yourcompany.com</p>
+              </div>
+
+              <!-- Quick Links -->
+              <div class="col-md-3 text-left">
+                <h4>Quick Links</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+
+              <!-- Available Links -->
+              <div class="col-md-3 text-left">
+                <h4>Available Links</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+
+              <!-- Social Media -->
+              <div class="col-md-3 text-left">
+                <h4>Follow Us</h4>
+                <ul class="list-inline">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Copyright -->
+          <div class="row text-center p-top-20 p-bottom-20 copy">
+            <div class="col-md-12">
+              <p>
+                Designed by
+                <a target="_blank" href="https://www.thepatternscompany.com"
+                  >The Patterns Company</a
+                >
+                © 2025. All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- JS includes -->
+
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.collapse.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+
+    <!-- paradise slider js -->
+
+    <!--
                 <script src="http://maps.google.com/maps/api/js?key=AIzaSyD_tAQD36pKp9v4at5AnpGbvBUsLCOSJx8"></script>
                 <script src="assets/js/gmaps.min.js"></script>
         
@@ -636,13 +610,9 @@
         
                 </script>-->
 
-
-
-
-
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
-        <script src="assets/lib/owlcarousel/owl.carousel.js"></script>
-        <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
-    </body>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/lib/owlcarousel/owl.carousel.js"></script>
+    <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
+  </body>
 </html>
