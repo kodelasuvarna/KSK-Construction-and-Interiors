@@ -1969,7 +1969,7 @@ Blog Details Page
 
 .said_post .post_item .item_img {
   width: 20%;
-  float: left;
+  float:left;
   margin-right: 5%;
   display: inline-block;
 }
