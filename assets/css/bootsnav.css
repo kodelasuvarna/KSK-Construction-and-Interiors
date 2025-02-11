@@ -65,13 +65,14 @@ nav.navbar.bootsnav ul.nav li.active > a{
 }
 
 nav.navbar.bootsnav .navbar-toggle{
-    background-color: #fff !important;
+    background:linear-gradient(90deg, #f3f85d, #4379cfbe);
     border: none;
     padding: 0.5rem;
     font-size: 18px;
     position: absolute;
-    top: 5px;
+    top: 2px;
     right: 0;
+    color: white;
 }
 
 nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu{
