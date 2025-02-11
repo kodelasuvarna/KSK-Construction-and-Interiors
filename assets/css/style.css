@@ -39,7 +39,19 @@ body {
     width:100%;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background:linear-gradient(90deg, #f3f85d, #4379cf);
+  outline: 1px solid slategrey;
+  border-radius: 100px;
+}
 /*------------------------------------------------------------------*/
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
 /*-----------------------------------------------------------------*/
@@ -1495,8 +1507,8 @@ Contact Section style
 }
 
 .owl-carousel.home-carousel .owl-item{
-    /* margin: 0 !important;
-    width: 100vw !important; */
+    /* margin-right: unset !important; */
+
 }
 .owl-carousel.home-carousel  .owl-nav{
     position: absolute;
