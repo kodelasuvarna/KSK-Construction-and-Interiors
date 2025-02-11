@@ -1494,7 +1494,9 @@ Contact Section style
     color: #f8f463;
 }
 
-
+.owl-carousel.home-carousel .owl-item{
+    margin-right: 0 !important;
+}
 
 /* scrollup */
 
