@@ -1023,7 +1023,7 @@ Nav Menu style
     background-size: cover;
 }
 .service-banner.about{
-    background: url(../images/banner/5.jpg) no-repeat bottom center;
+    background: url(../images/banner/banner-aboutsection.png) no-repeat bottom center;
     background-size: cover;
 }
 .service-banner.projects{
@@ -1043,7 +1043,7 @@ Nav Menu style
     background: url(../images/background/blog-bg.jpg) no-repeat bottom center;
 } */
 .blog-banner.blog{
-    background: url(../images/banner/1.jpg) no-repeat bottom center;
+    background: url(../images/banner/home-banner.png) no-repeat bottom center;
     background-size: cover;
 }
 .gallery-banner.gallery{
