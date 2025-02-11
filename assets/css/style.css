@@ -1992,20 +1992,11 @@ Blog Details Page
     padding-bottom:20px;
 }
 
-<<<<<<< HEAD
 .said_post .post_item .item_img {
   width: 20%;
   float:left;
   margin-right: 5%;
   display: inline-block;
-=======
-.said_post .post_item .item_img{
-    width:20%;
-    float: left;
-    margin-right: 5%;
-    display: inline-block;
-
->>>>>>> 5aaaea3a8c3f1614bd16a34e576bb657164fb19d
 }
 .said_post .post_item .item_text{
     display: inline-block;
