@@ -107,10 +107,10 @@ jQuery(document).ready(function ($) {
         autoplay: true,
         smartSpeed: 1500,
         center: false,
-        dots: true,
+        dots: false,
         loop: true,
         margin: 25,
-        nav: false,
+        nav: true,
         navText: [
           '<i class="fa fa-angle-left"></i>',
           '<i class="fa fa-angle-right"></i>',
