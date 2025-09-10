@@ -789,7 +789,7 @@ textarea::-ms-input-placeholder{
 
 /*Preloader css*/
 #loading{
-    background:  linear-gradient(180deg, #f3f85d,#4379cf);
+    background:white;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -2282,4 +2282,53 @@ color: var(--tp-theme-1);
     padding: 6px 14px;
     font-size: 12px;
   }
+}
+/*loader*/
+
+
+#ftco-loader {
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  z-index: 999999;
+}
+
+#ftco-loader.fullscreen {
+  padding: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  background-color: #fff;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#ftco-loader.show {
+  -webkit-transition: opacity 0.4s ease-out, visibility 0s linear 0s;
+  -o-transition: opacity 0.4s ease-out, visibility 0s linear 0s;
+  transition: opacity 0.4s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #ff7a00; /* orange */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
