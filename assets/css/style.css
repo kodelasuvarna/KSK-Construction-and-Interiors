@@ -37,7 +37,7 @@ body {
     margin-right: 0;
     font-weight: 400;
     width:100%;
-    font-family: 'Rubik', sans-serif;
+    font-family:  'Poppins', sans-serif;
 }
 body::-webkit-scrollbar {
     width: 0.5em;
@@ -253,6 +253,7 @@ h3 {
 h4 {
     font-size: 1.6rem;
     line-height: 2.2rem;
+    color:#fbac1b;
 }
 h5 {
     font-size: 1.2rem;
@@ -398,17 +399,17 @@ Button
 }
 
 .btn-default{
-    border: 2px solid;
-    border-color:#000000;
-    background-color: transparent;
-    color:#000000;
+    border: 1px solid;
+    border-color:white;
+    background-color:#3d589a ;
+    color:white;
     padding:0.8rem 2.5rem;
     border-radius: 30px;;
 }
 .btn-default:hover{
-    border-color:#F6F868;
-    background-color: #F6F868;
-    color: #4379CF;
+    border-color:#fbac1b;
+    background-color: #fbac1b;
+    color: black;
 }
 
 .btn-primary{
@@ -420,9 +421,9 @@ Button
     border-radius: 30px;
 }
 .btn-primary:hover{
-    background-color: #faf562;
-    border-color: #faf562;
-    color:#fff;
+    background-color:#fbac1b;
+    border-color: #fbac1b;
+    color:black;
 }
 
 .btn-success{}
@@ -1103,7 +1104,7 @@ About section style
     position: absolute;
     left:5%;
     top:5%;
-    border:10px solid #f6f664;
+    border:10px solid #fbac1b;
 
 }
 .photo_border2{
@@ -1179,18 +1180,18 @@ About section style
   .whatsapp i {
     font-size: 30px;
     color: white;
-    background:  linear-gradient(90deg, #f3f85d,#4379cf);
+    background:green  ;
     padding: 8px;
     border-radius: 50%;
     box-shadow: 2px 3px 4px black;
     animation: wh 2s linear infinite;
   }
   .whatsapp:hover i {
-    color:green !important;
-    background: white;
+    color:white !important;
+    background:#3d589a ;
   }
   .whatsapp:hover a i{
-      color:green !important;
+      color:white !important;
   }
 
 /* ---- button ---- */
@@ -1349,7 +1350,7 @@ service section style
     font-weight: 400;
 }
 .text-yellow{
-    color: #f6f664 !important;;
+    color: #fbac1b !important;;
 }
 
 
@@ -1525,7 +1526,7 @@ Contact Section style
 
 
 .footer {
-    background: #4379cf;
+    background: black;
     color: #fff;
     padding: 40px 0;
 }
@@ -1602,7 +1603,7 @@ Contact Section style
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background:linear-gradient(90deg, #f3f85d, #4379cfbe);
+ background:  #3d589a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2088,9 +2089,12 @@ Blog Details Page
 
 
 
-.logo{
-    width: 50%;
+.logo {
+  height: 100px !important;  /* Override all */
+  width: auto !important;
 }
+
+
 .service-carousel .owl-dots{
     text-align: center;
     display: flex;
@@ -2138,3 +2142,144 @@ margin: 5px;
     margin: 0 auto !important;
 
   }
+  .googlesreviews {
+    height: 130px;
+    width: 250px;
+}
+/* Service Box */
+.sec-title .sub-title {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+.sec-title p {
+    color: var(--tp-theme-1);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.016em;
+}
+.sec-title h2 {
+    padding: 10px 0px;
+    color: white;
+}
+.tp-service-2-area{
+background: #000000;
+}
+.tp-service-2-item:hover {
+   /* purple overlay */
+  transform: translateY(-5px);
+}
+.tp-service-2-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  }
+  .tp-service{
+      position: relative;
+    display: block;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid var(--tp-theme-1);
+}
+
+
+.tp-service-2-thumb {
+  width: 100%;
+  height: 220px;  /* fixed image height */
+  overflow: hidden;
+}
+
+.tp-service-2-thumb img {
+  border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  
+ 
+}
+
+.tp-service-2-content {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+background: black;
+}
+.tp-service-2-title {
+  font-size: 18px;
+  font-weight: 600;
+color: white;
+  margin-top: 20px;
+}
+.tp-service-2-title:hover {
+  
+color: var(--tp-theme-1);
+  
+}
+
+.tp-service-2-content p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.service-num {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.tp-service-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s;
+
+}
+
+.tp-service-btn:hover {
+ background: linear-gradient(90deg, #d4af37, #f1c40f);
+  color: #000;
+}
+/* ----------- MEDIA QUERIES ----------- */
+
+/* Tablets (2 per row) */
+@media (max-width: 992px) {
+  
+  .tp-service-2-title {
+    font-size: 18px;
+  }
+  .tp-service-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+   width:150px;
+  }
+}
+
+/* Mobile (1 per row) */
+@media (max-width: 576px) {
+  
+  .tp-service-2-title {
+    font-size: 16px;
+  }
+  .tp-service-btn {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+}
