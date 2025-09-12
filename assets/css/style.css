@@ -1616,7 +1616,9 @@ Contact Section style
 }
 
 .footer ul li a:hover {
-    color:  #fbac1b;
+  
+  color:#fbac1b;
+  text-decoration: underline;
 }
 
 .footer .list-inline li {
@@ -1628,6 +1630,10 @@ Contact Section style
     font-size: 1.5rem;
     color:  #fbac1b;
 }
+.footer .list-inline li a:hover{
+    /* font-size: 1.5rem; */
+    color:  white;
+}
 
 .footer .text-center {
     border-top: 1px solid #ddd;
@@ -1636,6 +1642,9 @@ Contact Section style
 }
 .copy a{
     color:  #fbac1b;
+}
+.copy a:hover{
+    text-decoration: underline;
 }
 
 .owl-carousel.home-carousel .owl-item{
