@@ -3563,7 +3563,7 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #262626;
+  color:  #fbac1b;
   text-decoration: none;
   background-color: #f5f5f5;
 }
@@ -3578,11 +3578,12 @@ tbody.collapse.in {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: #777;
+  color: #fbac1b;
 }
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
+  
   cursor: not-allowed;
   background-color: transparent;
   background-image: none;
@@ -6159,6 +6160,10 @@ button.close {
   border-bottom: 1px solid #ebebeb;
   border-radius: 5px 5px 0 0;
 }
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important; 
+  }
 .popover-content {
   padding: 9px 14px;
 }

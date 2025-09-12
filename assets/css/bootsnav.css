@@ -65,7 +65,7 @@ nav.navbar.bootsnav ul.nav li.active > a{
 }
 
 nav.navbar.bootsnav .navbar-toggle{
-    background:linear-gradient(90deg, #f3f85d, #4379cfbe);
+    background:#3d589a;
     border: none;
     padding: 0.5rem;
     font-size: 18px;

@@ -136,7 +136,7 @@ section { overflow: hidden; }*/
 .bg-finence{background-color:#13A0B2;}
 .bg-mega{background-color:#e5e5e5;}
 .bg-grey{background-color: #f5f5f5;}
-.bg-black{background: linear-gradient(90deg,  #4379CF 40%, #f3f85d) ;
+.bg-black{background-color: #c6a47e;
 }
 .bg-white{background-color: #fff;}
 
@@ -251,7 +251,7 @@ h3 {
     line-height: 2.5rem;
 }
 h4 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 2.2rem;
     color:#fbac1b;
 }
@@ -332,12 +332,57 @@ ul{
 
 /*all overlay*/
 .overlay{
-    background-color: rgba(51,51,51,0.50);
-    position: absolute;
-    left:0;
-    top:0;
-    width:100%;
+        position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
+    content: "";
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.57) 0%, rgba(0, 0, 0, 0.94) 100%);
+}
+
+.about_text h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.about_text .breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.about_text .breadcrumb li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.about_text .breadcrumb li.active a {
+  color: #fbac1b;
+ 
+}
+.about_text .breadcrumb li :hover{
+    text-decoration: underline;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .breadcrumb__height {
+        height: 300px;
+    }
+}
+.breadcrumb__height {
+    height: 400px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: bottom;
 }
 
 .no-padding {
@@ -763,7 +808,7 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
-    /*padding-bottom: 7.143rem;*/
+     /* padding: 15px 20px;  */
     overflow: hidden;
 }
 .head_title h2{
@@ -772,8 +817,9 @@ textarea::-ms-input-placeholder{
     font-size:2.286rem;
     color:#1a1a1a;
 }
+
 @media(max-width:992px){
-    .head_title h2{
+    .head_title h2 {
         text-align: center;
     }
 }
@@ -1008,24 +1054,18 @@ Nav Menu style
     background: url(../images/background/services-bg.jpg) no-repeat bottom center;
 }
 .service-banner.infrastructure{
-    background: url(../images/infrastructure/infra.png) no-repeat bottom center;
+    background: url(../images/banner/slider-3.jpg) no-repeat bottom center;
     background-size: cover;
 }
 .service-banner.interiors{
-    background: url(../images/banner/interior-banner.png) no-repeat bottom center;
+    background: url(../images/banner/slider-1.jpg) no-repeat bottom center;
     background-size: cover;
 }
-.service-banner.construction{
-    background: url(../images/blog/8.jpg) no-repeat bottom center;
-    background-size: cover;
-}
-.service-banner.collaborative
-{
-    background: url(../images/interiors/invisible-grill.avif) no-repeat bottom center;
-    background-size: cover;
-}
+
+
+
 .service-banner.about{
-    background: url(../images/banner/banner-aboutsection.png) no-repeat bottom center;
+    background: url(../images/banner/slider-2.jpg) no-repeat bottom center;
     background-size: cover;
 }
 .service-banner.projects{
@@ -1045,11 +1085,11 @@ Nav Menu style
     background: url(../images/background/blog-bg.jpg) no-repeat bottom center;
 } */
 .blog-banner.blog{
-    background: url(../images/banner/home-banner.png) no-repeat bottom center;
+    background: url(../images/banner/4.jpg) no-repeat bottom center;
     background-size: cover;
 }
 .gallery-banner.gallery{
-    background: url(../images/banner/3.jpg) no-repeat bottom center;
+    background: url(../images/banner/slider-1.jpg) no-repeat bottom center;
     background-size: cover;
 }
 
@@ -1113,7 +1153,7 @@ About section style
     position: absolute;
     right:3%;
     top:3%;
-    border:10px solid #c9c9c9;
+    border:10px solid #fbac1b;
 }
 
 .counter_item h2{
@@ -1126,7 +1166,14 @@ About section style
 .counter_item .separator_small{
     margin: 20px auto;
 }
-
+.call-to-action-one__content h2 {
+     
+    color:#fbac1b ;
+    font-size: 60px;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
 
 /*Work Section
 =====================================*/
@@ -1299,6 +1346,12 @@ About section style
     display: block;
 }
 
+.blog_item_img{
+    width: 100%;          /* full width inside container */
+        /* set a fixed height */
+  object-fit: cover;    /* crop/scale without distortion */
+  border-radius: 8px;   /* optional – for smooth edges */
+}
 
 
 
@@ -1309,13 +1362,18 @@ service section style
 .service_items {
     margin: 40px 0;
 }
-
+.testi-bg{
+    background: #c6a47e;
+}
+.slider-bg{
+    background: black;
+}
 .service_items .hexagon i,
 .service_items .hexagon span{
     position: relative;
     width: 70px;
     height: 70px;
-    background-color: #f6f664;
+    background-color:  #e7e7e7;
     margin:0;
     line-height: 70px;
     font-size:2rem;
@@ -1537,7 +1595,7 @@ Contact Section style
 }
 
 .footer h4 {
-    color: #f8f463;
+    color:  #fbac1b;
     font-size: 18px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -1558,7 +1616,7 @@ Contact Section style
 }
 
 .footer ul li a:hover {
-    color: #f8f463;
+    color:  #fbac1b;
 }
 
 .footer .list-inline li {
@@ -1568,7 +1626,7 @@ Contact Section style
 
 .footer .list-inline li a {
     font-size: 1.5rem;
-    color: #f8f463;
+    color:  #fbac1b;
 }
 
 .footer .text-center {
@@ -1577,7 +1635,7 @@ Contact Section style
     padding-top: 10px;
 }
 .copy a{
-    color: #f8f463;
+    color:  #fbac1b;
 }
 
 .owl-carousel.home-carousel .owl-item{
@@ -1643,7 +1701,7 @@ Contact Section style
 .scrollup a i{
     font-size: 30px;
     padding: 6px;
-    background-color: #0000009c;
+    background-color: #3d589a;
     /* border-radius: 5px; */
 }
 .scrollup:hover {
@@ -1696,54 +1754,112 @@ Contact Section style
 }
 
 
-/*Teams Feature section
-===============================*/
+#teams {
+  background: #f9f9f9;       /* light background */
+  padding: 60px 0;
+}
 
-.main_teams{}
-.team_item:hover .team_img img{
-    transform: scale(1.1);
+#teams .head_title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
 }
-.team_img{
-    position: relative;
-    overflow: hidden;
-}
-.team_img img{
-    width:100%;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
 
-}
-.team_caption{
-    width:80%;
-    position: absolute;
-    left:0;
-    bottom:0;
-    background-color: rgba(255,255,255,0.55);
-    padding:1rem;
-}
-.team_caption h4{
-    font-size:16px;
-
-}
-.team_caption h4,
-.team_caption h5{
-    margin-bottom: 5px;
-    line-height: 1.5rem;
+#teams .head_title h5 {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
 }
 
 
 
+/* Team Items */
+.team_item {
+  text-align: center;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 
+.team_item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.team_img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; 
+           /* fixed height */
+  object-fit: cover;
+  background: #fbac1b;
+    /* orange accent */
+}
+
+/* Caption */
+.team_caption {
+  padding: 20px;
+}
+
+.team_caption h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.team_caption h5 {
+  font-size: 14px;
+  color: #888;
+  font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #teams {
+    padding: 40px 0;
+  }
+
+  .team_img img {
+    height: 200px;
+  }
+}
 
 /*
 ==================================================
             Service Page
 ==================================================
 */
+.company {
+     
+    position: relative;
+    display: block;
+    background: #f5f5f8;
+ 
+    z-index: 1;
+}
+.company .shape1 {
+    position: absolute;
+    left: -10px;
+    bottom: 0;
+    opacity: 0.06;
+    z-index: -1;
+}
+.company h3 {
+   
+   font-weight: 800;
+   /* background-image: url('/assets/images/interiors/theme-interior.jpg');
+   background-clip:text ;
+   -webkit-background-clip:text ;
+   color: transparent;
+   background-size: cover; */
+   font-size:2.386rem;
 
-
+}
 .main_service{}
 .sv_service_item{}
 .sv_service_item h4 i{
@@ -1807,7 +1923,35 @@ Contact Section style
     height: 550px;
     width:100%;
 }
+.map-container {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;  /* optional rounded corners */
+}
 
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;  /* removes inline gaps */
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .map-container {
+    height: 350px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .map-container {
+    height: 280px;
+    border-radius: 8px;
+  }
+}
 
 
 /*
@@ -1914,7 +2058,7 @@ Contact Section style
 
 .blog_fashion_right{}
 .fashion_test{
-    background: linear-gradient(90deg, #f3f85d 40%, #4379CF) !important;
+    background: black !important;
 
     padding:40px 20px 55px 20px;
 }
@@ -2110,7 +2254,7 @@ border-radius: 50%;
 margin: 5px;
 }
 .service-carousel .owl-dots .owl-dot.active{
-    background-color: #f6f664; 
+    background-color:  #fbac1b; 
 }
 .testimonial-carousel .owl-dots{
     text-align: center;
@@ -2122,7 +2266,7 @@ margin: 5px;
 .testimonial-carousel .owl-dots .owl-dot{
 width: 15px;
 height: 15px;
-border: 1px solid #4379CF;
+border: 1px solid white;
 border-radius: 50%;
 margin: 5px;
 }
@@ -2331,4 +2475,199 @@ color: var(--tp-theme-1);
 @keyframes spin {
     0%   { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+ .tp-service{
+      position: relative;
+    display: block;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid  #fbac1b;
+}
+
+
+.tp-service-2-thumb {
+  width: 100%;
+  height: 220px;  /* fixed image height */
+  overflow: hidden;
+}
+
+.tp-service-2-thumb img {
+  border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  
+ 
+}
+.sec-title .sub-title{
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+}
+.sec-title p {
+    color: #fbac1b ;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.016em;
+}
+
+.tp-service-2-content {
+  flex: 1;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+background: transparent;
+}
+.tp-service-2-title {
+  font-size: 18px;
+  font-weight: 600;
+color: white;
+  margin-top: 20px;
+}
+.tp-service-2-title:hover {
+  
+color: var(--tp-theme-1);
+  
+}
+
+.tp-service-2-content p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.service-num {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.tp-service-btn {
+  display: inline-block;
+  padding: 8px 15px;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s;
+
+}
+
+.tp-service-btn:hover {
+ background: #fbac1b ;
+  color: #000;
+}
+/* ----------- MEDIA QUERIES ----------- */
+
+/* Tablets (2 per row) */
+@media (max-width: 992px) {
+  
+  .tp-service-2-title {
+    font-size: 18px;
+  }
+  .tp-service-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+   width:150px;
+  }
+}
+
+/* Mobile (1 per row) */
+@media (max-width: 576px) {
+  
+  .tp-service-2-title {
+    font-size: 16px;
+  }
+  .tp-service-btn {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+}
+
+.main_blog_fashion {
+  text-align: center; /* centers inline elements like img */
+  margin: 40px auto;
+}
+
+.blog_fashion_img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* centers block element */
+  border-radius: 10px; /* optional for smooth corners */
+}
+
+.main_blog_fashion {
+  padding: 50px 20px; /* padding for whole section */
+  text-align: center;
+}
+
+.blog_fashion_img img {
+  max-width: 100%;
+  max-height: 500px;   /* limit the height */
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto 30px auto; /* center + spacing below */
+  border-radius: 10px; /* optional */
+  object-fit: cover;   /* keeps aspect ratio without distortion */
+}
+ .blog_fashion img{
+        width: 100%;
+        margin-bottom: 1rem;
+        border: 2px solid white;
+        border-radius: 10px;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+.blog_interior_content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.blog_interior_content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.blog_interior_content p {
+  font-size: 16px;
+  
+  color: #444;
+}
+.service-box{
+    max-width: 100%;
+    max-height: 100%;
+    width:auto;
+    background-color: black;
+    padding: 10px 10px;
+}
+.service-box h2{
+background-image: url('/assets/images/interiors/t-10.png');
+font-size: 50px;
+font-weight: 800;
+text-align: center;
+text-transform: uppercase;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-webkit-background-clip: text;
+animation: forestpan 8s ease-in-out infinite;
+
+}
+@keyframes forestpan {
+    0%, 100% {background-position: 20%, 30%; }
+    50% {background-position: 80%, 70%; }
 }

@@ -63,10 +63,7 @@ Author URI: http://www.xpeedstudio.com
 
     .work_separator1:before,
     .work_separator2:before{
-        margin-left:-90px;
-        left: 50%;
-        top: 50%;
-        z-index: 1;
+       display: none;
     }
     .separator_left{
         margin: 20px auto;
@@ -80,9 +77,12 @@ Author URI: http://www.xpeedstudio.com
 
 
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .call-to-action-one__content h2 {
+        font-size: 65px;
+    }
 
-
-
+}
 /* Landscape phones and portrait tablets */
 @media  (max-width: 768px) {
     h2{
