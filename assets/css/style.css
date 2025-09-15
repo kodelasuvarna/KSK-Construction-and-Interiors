@@ -2688,7 +2688,7 @@ color: #3d589a;
         @media (max-width: 992px) {
           .carousel-text h3 {
             font-size: 2.8rem;
-            -webkit-text-stroke:goldenrod 2px ;
+            -webkit-text-stroke:linear-gradient(90deg, #fbac1b, #3d589a) 2px ;
             /* Corrected text stroke */
           }
 
