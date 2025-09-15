@@ -1527,7 +1527,7 @@ Models Section style
 }
 .model_caption{
     /* background-color: #333; */
-    background: linear-gradient(90deg, #f3f85d, #4379cfbe);
+    background:#fbac1b ;
     width:100%;
     position: absolute;
     left:0;
@@ -1926,8 +1926,8 @@ Contact Section style
     width:70px;
     height: 70px;
     line-height: 70px;
-    background-color: #faf562;
-    color:#000;
+    background-color: #3d589a;
+    color:white;
     font-size:2rem;
     border:1px solid #ddd;
     border-radius: 50%;
@@ -2642,6 +2642,8 @@ color: #3d589a;
 }
  .blog_fashion img{
         width: 100%;
+        height:250px;
+        object-fit: cover;
         margin-bottom: 1rem;
         border: 2px solid white;
         border-radius: 10px;
