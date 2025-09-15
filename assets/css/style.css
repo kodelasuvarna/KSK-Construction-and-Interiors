@@ -2617,12 +2617,17 @@ color: #3d589a;
   margin: 40px auto;
 }
 
-.blog_fashion_img img {
+.blog_fashion_img1 img {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto; /* centers block element */
-  border-radius: 10px; /* optional for smooth corners */
+  /* centers block element */
+  border-radius: 10px; 
+  max-height: 500px;   /* limit the height */
+  width: auto;
+ 
+ 
+  margin: 0 auto 30px auto;/* optional for smooth corners */
 }
 
 .main_blog_fashion {
