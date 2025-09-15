@@ -68,7 +68,7 @@ nav.navbar.bootsnav ul.nav li.active > a{
 nav.navbar.bootsnav .navbar-toggle{
     /* background:#fbac1b; */
     border: none;
-    padding: 0.5rem;
+    padding: 0.8rem;
     font-size: 18px;
     position: absolute;
     top: 2px;
