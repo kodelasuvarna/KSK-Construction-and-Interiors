@@ -1705,7 +1705,7 @@ Contact Section style
     opacity: 1;
     position: fixed;
     bottom: 3.2rem;
-    right: 3.5rem;
+    right: 4rem;
     color: #fff;
     cursor: pointer;
    
@@ -2679,24 +2679,7 @@ color: #3d589a;
     background-color: black;
     padding: 10px 10px;
 }
-.service-box h2{
-background-image: url('/assets/images/interiors/t-10.png');
-font-size: 50px;
-font-weight: 800;
-text-align: center;
-text-transform: uppercase;
-background-repeat: no-repeat;
-background-position: center;
--webkit-text-fill-color: transparent;
-background-clip: text;
--webkit-background-clip: text;
-animation: forestpan 8s ease-in-out infinite;
 
-}
-@keyframes forestpan {
-    0%, 100% {background-position: 20%, 30%; }
-    50% {background-position: 80%, 70%; }
-}
 
 
 .owl-carousel.home-carousel .carousel-item::before {
@@ -3132,4 +3115,26 @@ animation: forestpan 8s ease-in-out infinite;
   .navbar-brand img.logo {
     height: 80px !important;   /* keep it neat */
   }
+
+
+}
+
+.service-box h2{
+background-image: url('/assets/images/interiors/t-10.png');
+
+font-size: 50px;
+font-weight: 800;
+text-align: center;
+text-transform: uppercase;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+-webkit-background-clip: text;
+animation: forestpan 8s ease-in-out infinite;
+
+}
+@keyframes forestpan {
+    0%, 100% {background-position: 20%, 30%; }
+    50% {background-position: 80%, 70%; }
 }
