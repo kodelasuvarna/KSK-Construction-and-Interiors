@@ -813,7 +813,7 @@ textarea::-ms-input-placeholder{
 }
 /*heading title all area*/
 .head_title{
-     /* padding: 15px 20px;  */
+     padding: 15px 20px; 
     overflow: hidden;
 }
 .head_title h2{
