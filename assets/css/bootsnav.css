@@ -642,7 +642,8 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     /* Navbar Transparent
     =================================*/  
     nav.navbar.bootsnav.no-background{
-        background-color:rgba(255, 140, 0, 0.6);
+        /* background-color:rgba(255, 140, 0, 0.6); */
+      background: linear-gradient(90deg, #fbbf24, #1e3a8a);
         border: none;
     }
     
