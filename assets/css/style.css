@@ -430,6 +430,7 @@ Separator
     background: #000;
 }
 
+
 /*
 Button
 */
@@ -822,9 +823,20 @@ textarea::-ms-input-placeholder{
     font-size:2.286rem;
     color:#1a1a1a;
 }
+.head_title h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size:2.286rem;
+    color:#1a1a1a;
+}
 
 @media(max-width:992px){
     .head_title h2
+    
+     {
+        text-align: center;
+    }
+     .head_title h1
     
      {
         text-align: center;
